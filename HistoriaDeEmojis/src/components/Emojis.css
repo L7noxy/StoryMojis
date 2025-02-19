@@ -1,8 +1,46 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-}
+.container-emoji {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+  }
+
+  body{
+    background-color: #333;
+  }
+  
+  h1 {
+    color: #fffcfc;
+  }
+  
+  .emojis {
+    margin: 20px auto; 
+    display: block;
+    font-size: 5rem; 
+    padding: 30px;
+    background-color: #b8d0eb8b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px; 
+    width: 100%;
+  }
+  
+  .emoji-container {
+    margin: 20px 0;
+  }
+  
+  button {
+    font-family: 'Amatic SC', cursive;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #7400b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    
+    transition: background-color 0.9s ease;
+    display: block; /* Garante que o botão ocupe a linha inteira */
+    margin: 20px auto; /* Centraliza o botão horizontalmente e adiciona margem */
+  }
+  
+  button:hover {
+    background-color: #8447ff;
+  }
